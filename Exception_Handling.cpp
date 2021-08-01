@@ -1,5 +1,5 @@
 #include<iostream>
-
+//given code is about how to stop program from ubnormal execution using exception handling
 int main()
 {
 	float a = 10;

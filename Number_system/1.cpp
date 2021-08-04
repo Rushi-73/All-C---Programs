@@ -10,7 +10,7 @@ int main()
    /* for finding power of given number*/
    for(i=1;i<=p;i++)
    {
-      power=power*num;
+      power=power*num; //here we calculating power of x with respect to y
    }
    std::cout<<"Power of number is "<<power;  
    

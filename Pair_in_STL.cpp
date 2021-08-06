@@ -3,10 +3,11 @@ int main()
 {
     string s = "rushi";
 
+    //creating pair container
     pair <int, string> p(19,"rushi");
 
-    cout << p.first << endl;
-    cout << p.second << endl;
+    cout << p.first << endl; //to get first value
+    cout << p.second << endl;//to get second value
 
     pair <int, string> p1=p;
 
@@ -18,7 +19,7 @@ int main()
     int a[] = { 1,2,3 };
     
 
-    pair <int, string> pa[3];
+    pair <int, string> pa[3];  //creating array of pair
 
     int i;
     for (i = 0; i < 3; i++)

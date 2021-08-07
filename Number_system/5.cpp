@@ -35,7 +35,7 @@ int main()
 		{
 			if(occur==a[i])
 			{
-				pos=i+1;
+				pos=i+1; //finding position of last occurence element
 				f=1;
 			}
 			

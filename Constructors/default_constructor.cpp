@@ -3,7 +3,7 @@
 class demo
 {
 	public:
-	demo()
+	demo() //default constructor
 	{
 		std::cout<<"Default constructor"<<std::endl;
 	}

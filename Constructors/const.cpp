@@ -21,7 +21,7 @@ class CONST
 
 int main()
 {
-	CONST c;
+	CONST c; //creating object of class
 	
 	c.gun();
 	c.run();

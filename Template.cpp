@@ -1,12 +1,12 @@
 #include<iostream>
 
-template <class t1,class t2> //class template
+template <class t1,class t2> //class template  declaration
 class Templates
 {
 public:
 	t1 a;
 	t2 b;
-	template <class T>  //function template
+	template <class T>  //function template declaration
 	T add(T x, T y)
 	{
 		T z;

@@ -22,8 +22,8 @@ public:
 };
 int main()
 {
-	Templates<int,float> obj;
-	std::cout<<obj.add(10, 20)<<std::endl;
+	Templates<int,float> obj;  //creating objects
+	std::cout<<obj.add(10, 20)<<std::endl; 
 	std::cout << obj.add(10, 20.0768f) << std::endl;
 	return 0;
 }

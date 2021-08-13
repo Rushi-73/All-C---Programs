@@ -8,7 +8,7 @@ int main()
 	c=a+b;
 	while(1)
 	{
-		if(c==value)
+		if(c==value)  //checking wheather number is in fibonacci series or not
 		{
 			std::cout<<"Given number is fibonacci number"<<std::endl;
 			break;

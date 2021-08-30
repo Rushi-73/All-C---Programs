@@ -46,7 +46,7 @@ int main()
 	std::cout<<d1.x<<" "<<d1.y<<" "<<*(d1.p)<<std::endl;
 	
 	demo d2=d;     
-	(*(d.p))++;          
+	(*(d.p))++; //accessing point variable and increasing value on address which store in pointer         
 	std::cout<<d2.x<<" "<<d2.y<<" "<<*(d2.p)<<std::endl;
 	
 	demo d3;
